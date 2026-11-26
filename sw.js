@@ -1,7 +1,7 @@
 /* Service worker: guarda o app no aparelho para funcionar offline.
    Ao alterar qualquer arquivo, aumente VERSAO para que os aparelhos baixem a nova versão.
    (A lista de fontes do KaTeX foi gerada a partir de vendor/katex/fonts.) */
-const VERSAO = 'algebra-aneis-v1';
+const VERSAO = 'algebra-v2';
 const ARQUIVOS = [
   './',
   'index.html',

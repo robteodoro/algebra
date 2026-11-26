@@ -175,7 +175,7 @@
           { t: 'html', html: R`
             <h3>Os inteiros gaussianos módulo um ideal</h3>
             <p>Em $\Z[i]/\langle 2+i\rangle$ vale $2+i=0$, ou seja, $i=-2$. Então também $(2+i)(2-i)=4-i^2=5=0$. Toda classe $a+bi$ é igual à classe do inteiro $a-2b$, que módulo $5$ é um de $0,1,2,3,4$. Esses cinco são distintos (seria preciso mostrar que, por exemplo, $1\notin\langle 2+i\rangle$), e o quociente tem $5$ elementos.</p>` },
-          { t: 'video', rascunho: true, src: 'videos/gauss-quociente.mp4', legenda: R`O ideal $\langle 2+i\rangle$ no plano e as cinco classes de $\Z[i]/\langle2+i\rangle$.` },
+          { t: 'video', src: 'videos/gauss-quociente.mp4', legenda: R`O ideal $\langle 2+i\rangle$ no plano e as cinco classes de $\Z[i]/\langle2+i\rangle$.` },
           { t: 'lab', w: 'gauss', a: 3, b: 2, titulo: 'Cada cor, uma classe', html: R`Os pontos com contorno são os múltiplos de $a+bi$. Note que o ideal é um “quadriculado” girado, e que as cores se repetem com o mesmo padrão: o plano fica dividido em $a^2+b^2$ classes.` },
           { t: 'pratica', itens: [
             { t: 'num', r: 13, p: R`Quantos elementos tem $\Z[i]/\langle3+2i\rangle$?`, exp: R`$3^2+2^2=13$. (No laboratório acima, conte as cores.)` },

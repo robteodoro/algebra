@@ -34,7 +34,7 @@
           { t: 'teo', rotulo: 'Invertível ou divisor de zero', html: R`
             <p>(i) Num anel comutativo com unidade, um elemento invertível não é divisor de zero.</p>
             <p>(ii) Em $\Z_n$, todo elemento não nulo é invertível ou divisor de zero: $a$ é invertível se $\mdc(a,n)=1$; se $d=\mdc(a,n)\gt1$, então $a\cdot\frac nd=0$ com $\frac nd\neq0$.</p>` },
-          { t: 'video', rascunho: true, src: 'videos/multiplicar-zn.mp4', legenda: R`Multiplicar por $a$ em $\Z_{12}$: quando $x\mapsto ax$ é bijetora, $a$ é invertível; quando colapsa, $a$ é divisor de zero.` },
+          { t: 'video', src: 'videos/multiplicar-zn.mp4', legenda: R`Multiplicar por $a$ em $\Z_{12}$: quando $x\mapsto ax$ é bijetora, $a$ é invertível; quando colapsa, $a$ é divisor de zero.` },
           { t: 'lab', w: 'zn', n: 18, titulo: 'Os dois tipos de elemento de ℤₙ', html: R`Linhas verdes: invertíveis (têm um $1$). Linhas vermelhas: divisores de zero (têm um $0$ fora da coluna do $0$). Em $\Z_n$ não há terceira possibilidade.` },
           { t: 'pratica', titulo: 'Fixação', itens: [
             { t: 'conjmod', n: 18, r: [2, 3, 4, 6, 8, 9, 10, 12, 14, 15, 16], p: R`Liste os divisores de zero de $\Z_{18}$.`,
